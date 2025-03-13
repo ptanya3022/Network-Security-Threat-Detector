@@ -25,8 +25,9 @@ A cutting-edge AI-powered security tool that **detects suspicious network activi
 - **Backend**: Python (Pandas, Scikit-learn)  
 - **Deployment**: GitHub Actions (CI/CD)  
 
-## 🚀 Try It Live!  
-[🔗 Streamlit App Link](#) *(https://network-security-threat-detector-qzkguywewg797fpzuptudl.streamlit.app/)*  
+## 🚀 Try It Live!    
+[![Open in Streamlit](https://img.shields.io/badge/🚀_Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://network-security-threat-detector-qzkguywewg797fpzuptudl.streamlit.app/)  
+ 
 
 ## 📥 Installation & Usage  
 
