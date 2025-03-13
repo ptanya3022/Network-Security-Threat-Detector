@@ -1,9 +1,9 @@
-name: Deploy Streamlit App
+name: Deploy to Streamlit Cloud
 
 on:
   push:
     branches:
-      - main  # Runs on every push to the 'main' branch
+      - main  # Change if your branch is different
 
 jobs:
   deploy:
@@ -22,6 +22,9 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Deploy to Streamlit Cloud
+      - name: Trigger Streamlit Cloud Deployment
         run: |
-          streamlit run app.py
+          curl -X POST -H "Authorization: Bearer ${{ secrets.STREAMLIT_DEPLOY_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          --data '{"event_type": "streamlit_deploy"}' \
+          https://api.github.com/repos/ptanya3022/Network-Security-Threat-Detector/dispatches
