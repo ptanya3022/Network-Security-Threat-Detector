@@ -2,6 +2,10 @@
 
 A cutting-edge AI-powered security tool that **detects suspicious network activity** using **Isolation Forest**, helping organizations identify potential cyber threats in real time.  
 
+## 🚀 Try It Live!    
+[![Open in Streamlit](https://img.shields.io/badge/🚀_Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://network-security-threat-detector-qzkguywewg797fpzuptudl.streamlit.app/)  
+ 
+
 ## 📌 Features  
 - ✅ **Upload & Analyze CSV** – Supports any network traffic dataset  
 - ✅ **AI-Based Threat Detection** – Uses **Isolation Forest** for anomaly detection  
@@ -25,9 +29,7 @@ A cutting-edge AI-powered security tool that **detects suspicious network activi
 - **Backend**: Python (Pandas, Scikit-learn)  
 - **Deployment**: GitHub Actions (CI/CD)  
 
-## 🚀 Try It Live!    
-[![Open in Streamlit](https://img.shields.io/badge/🚀_Live_Demo-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://network-security-threat-detector-qzkguywewg797fpzuptudl.streamlit.app/)  
- 
+ ---
 
 ## 📥 Installation & Usage  
 
